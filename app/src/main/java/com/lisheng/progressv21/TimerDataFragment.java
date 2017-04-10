@@ -43,11 +43,7 @@ public class TimerDataFragment extends ListFragment implements AdapterView.OnIte
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-
         Context context=getActivity();
-
-
         try{
             SQLiteOpenHelper timerDatabaseHelper=new TimerDatabaseHelper(context);
             db=timerDatabaseHelper.getReadableDatabase();

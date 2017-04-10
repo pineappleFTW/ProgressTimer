@@ -15,7 +15,7 @@ import org.w3c.dom.Text;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+//testing push and commit
 public class TimeDetailActivity extends Activity {
 
     public static final String EXTRA_ID ="IDPos";
@@ -51,9 +51,6 @@ public class TimeDetailActivity extends Activity {
 
                 TextView desc=(TextView)findViewById(R.id.desc_detail);
                 desc.setText(descText);
-
-
-
             }
             cursor.close();
             db.close();
@@ -63,7 +60,5 @@ public class TimeDetailActivity extends Activity {
             Toast toast=Toast.makeText(this,"Database not found",Toast.LENGTH_SHORT);
             toast.show();
         }
-
-
     }
 }
