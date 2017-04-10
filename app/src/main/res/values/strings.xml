@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Progressv2.1</string>
+
+
+    <string name="start">Start</string>
+    <string name="pickagoal">Pick a goal</string>
+    <string-array name="goals">
+        <item>1 minute</item>
+        <item>2 minute</item>
+        <item>3 minute</item>
+        <item>4 minute</item>
+        <item>5 minute</item>
+        <item>6 minute</item>
+        <item>7 minute</item>
+        <item>8 minute</item>
+        <item>9 minute</item>
+        <item>10 minute</item>
+        <item>11 minute</item>
+        <item>12 minute</item>
+        <item>13 minute</item>
+        <item>14 minute</item>
+        <item>15 minute</item>
+    </string-array>
+    <string name="progress">Progress</string>
+
+    <string-array name="nav">
+        <item>Home</item>
+        <item>Saved Times</item>
+    </string-array>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="save">Save</string>
+    <string name="record">Record</string>
+
+    <string name="action_delete">Delete</string>
+    <string name="desc_hint">Description for the activity</string>
+    <string name="date">Date and Time</string>
+    <string name="goal">Goal</string>
+    <string name="desc">Description</string>
+
+</resources>
